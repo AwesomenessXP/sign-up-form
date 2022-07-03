@@ -1,6 +1,6 @@
 body {
     margin: 0 0;
-    background-color: #0D1117;
+    background-color: #ffffff;
     z-index: 0;
     overflow: hidden;
 }
@@ -28,15 +28,12 @@ body {
     width: 70vw;
     height: 200vh;
     background-image: url(https://staticg.sportskeeda.com/editor/2022/01/52838-16430106185586-1920.jpg);
-    background-size: 180vh;
+    background-size: 177vh;
+    opacity: 30%;
+    filter:blur(3px);
 }
 
 #sumeru1 {
-    width: 30vw;
-    height: auto;
-}
-
-#sumeru2 {
     width: 30vw;
     height: auto;
 }
@@ -52,5 +49,6 @@ body {
     text-align: center;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
 }
 
