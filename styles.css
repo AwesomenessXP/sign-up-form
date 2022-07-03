@@ -14,7 +14,9 @@ body {
     display: flex;
     height: 100vh;
     width: 30vw;
-    border: 1px solid white;
+    background-image: url(http://images6.fanpop.com/image/photos/43700000/The-Secret-World-of-Arrietty-Wallpaper-the-secret-world-of-arrietty-43738783-1920-1080.jpg);
+    background-size: 180vh;
+    background-repeat: no-repeat;
 }
 
 #item1 {
@@ -24,15 +26,31 @@ body {
 
 #item2 {
     width: 70vw;
+    height: 200vh;
+    background-image: url(https://staticg.sportskeeda.com/editor/2022/01/52838-16430106185586-1920.jpg);
+    background-size: 180vh;
 }
 
 #sumeru1 {
     width: 30vw;
-    height: 30vh;
+    height: auto;
 }
 
 #sumeru2 {
     width: 30vw;
-    height: 20vh;
+    height: auto;
+}
+
+#sumeru3 {
+    width: 30vw;
+    height: auto;
+}
+
+#item1 h1 {
+    color: white;
+    background-color: #0d1117a1;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
