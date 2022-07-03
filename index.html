@@ -21,9 +21,45 @@
 
             <div id="item2">
                 <div id="form">
-                    <p>“The God of Wisdom’s enemy is wisdom itself, and the oasis of knowledge is a mirage in the desert of ignorance. In the city of scholars there is a push for folly, yet the God of Wisdom makes no argument against it.”</p>
+                    <p id="desc">“The God of Wisdom’s enemy is wisdom itself, and the oasis of knowledge is a mirage in the desert of ignorance. In the city of scholars there is a push for folly, yet the God of Wisdom makes no argument against it.”</p>
+                    <form action="#" method="get">
+                        <div>
+                            <label for="userName">Guest name:</label>
+                            <input class="input" type="text" id="user" name="username" required>
+                        </div>
+    
+                        <div>
+                            <label for="passWord">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+
+                        <div>
+                            <label for="passWord">Confirm password:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+    
+                        <div>
+                            <label for="eMail">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+    
+                        <div>
+                            <label for="doa">Date of arrival:</label> <!-- name="dob" is the key, inputted date of birth is the value-->
+                            <input type="date" id="dateOfArrival" name="doa" required>
+                        </div>
+    
+                        <div>
+                            <label for="dod">Date of departure:</label> <!-- name="dob" is the key, inputted date of birth is the value-->
+                            <input type="date" id="dateOfDeparture" name="dod" required>
+                        </div>
+                        <button type="submit" id="submit-btn">Book ticket</button>
+                    </form>
                 </div>
             </div>
+
+            <footer>
+                <p>Created by HaskMoney - 2022</p>
+            </footer>
         </div>
         
         <script src="" async defer></script>
