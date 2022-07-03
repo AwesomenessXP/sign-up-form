@@ -3,6 +3,7 @@ body {
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
     z-index: -1;
+    font-weight: bold;
 }
 
 .container {
@@ -77,6 +78,7 @@ body {
     border: 1px solid black;
     border-radius: 6px;
     padding: 20px;
+    font-weight:initial;
 }
 
 input {
@@ -85,6 +87,7 @@ input {
     height: 25px;
     border: 1px solid grey;
     border-radius: 4px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.24);
 }
 
 input:focus {
@@ -96,17 +99,20 @@ input:focus {
 #submit-btn {
     height: 50px;
     width: 150px;
-    background-color: rgb(135, 233, 122);
-    border: 1px solid grey;
+    background-color: rgba(135, 233, 122, 0);
+    border: 2px solid rgb(135, 233, 122);
     border-radius: 4px;
     font-size: 16px;
+    font-weight: bold;
     padding: 5px;
     margin-top: 10px;
 }
 
 #submit-btn:hover {
     cursor: pointer;
-    background-color: rgba(135, 233, 122, 0.712);
+    background-color: rgb(135, 233, 122);
+    transform:scale(1.08);
+    transition: transform 0.15s ease-out;
 }
 
 footer {
@@ -119,5 +125,6 @@ footer {
     letter-spacing: 1px;
     margin-left: 50%;
     margin-bottom: 50px;
+    font-weight:initial;
 }
 
