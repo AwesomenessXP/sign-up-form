@@ -7,12 +7,12 @@ body {
 }
 
 .container {
-    display: flex;
+    display: inline-flex;
     flex-flow: row wrap;
 }
 
 .item {
-    display: flex;
+    display: inline-flex;
     height: 101vh;
     width: 30vw;
     background-image: url(http://images6.fanpop.com/image/photos/43700000/The-Secret-World-of-Arrietty-Wallpaper-the-secret-world-of-arrietty-43738783-1920-1080.jpg);
@@ -21,17 +21,19 @@ body {
 }
 
 #item1 {
+    display: inline-flex;
     flex-flow: column wrap;
     justify-content: center;
 }
 
 #item2 {
+    display: inline-flex;
     width: 70vw;
     height: 200vh;
     background-image: url(https://staticg.sportskeeda.com/editor/2022/01/52838-16430106185586-1920.jpg);
     background-size: 180vh;
     /* opacity: 35%; */
-    display: flex;
+    display: inline-flex;
     flex-flow: column nowrap;
 }
 
@@ -72,6 +74,7 @@ body {
 }
 
 #desc {
+    display: inline-block;
     font-size: 22px;
     text-align:center;
     font-style:italic;
